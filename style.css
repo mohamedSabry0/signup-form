@@ -1,0 +1,11 @@
+*{
+  min-width:50px;
+width: 200px;
+
+}
+.green{
+  background-color: green !important;
+}
+.blue{
+  background-color: blue;
+}
