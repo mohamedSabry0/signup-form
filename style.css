@@ -1,11 +1,21 @@
 *{
   min-width:50px;
 width: 200px;
-
+  display:block;
 }
 .green{
   background-color: green !important;
 }
 .blue{
   background-color: blue;
+}
+#lock{
+  position:absolute;
+  width: 32px;
+  right: 100px;
+}
+
+#forms{
+  border: solid 1px black !important;
+  display: block !important; 
 }

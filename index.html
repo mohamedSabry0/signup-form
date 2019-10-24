@@ -7,10 +7,19 @@
   </head>
   <body class="container">
     <div class="col ">
-      <nav class="row ">
-        <div class="col ">
-          <button class="btn btn-primary"></button>
-        </div>
+      <nav>
+        <ul class="row nav">
+          <li class="nav-item">
+            <span>Already have an Intuit account?</span>
+            
+          </li>
+          <li class="nav-link">
+            <span><a href="https://accounts.intuit.com/signup#">I forgot my User ID or Password</a></span>
+          </li>
+          <li class="col ">
+            <button class="btn btn-primary">Sign In</button>
+          </li>
+        </ul>
       </nav>
       <main class="row ">
 
@@ -24,27 +33,59 @@
 
         <header>
           <div class="">
-          <h3>Create an account</h3>
+            <header>Create an Intuit account</header>
+            <span class="subheader">One account for everything Intuit, including Mint.<a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></span>
           </div>
         </header>
-        <form class="" action="#" method="post">
-          <fieldset>
+        <form id="forms" action="#" method="post">
+          <fieldset class="form">
             <label >
               E-mail Address
               <input type="email" name="email" placeholder="example@domain.com">
             </label>
             <label >
               Phone (recommended)
-              <input type="tel" name="phone" placeholder="+00-000-00000000">
+              <input type="tel" name="phone" placeholder="+00-000-00000000" required maxlength="30">
+              <span>Standard call, messaging or data rates may apply.
+              </span>
             </label>
             <label>
               Password
-              <input type="password" name="password" >
-            </label>
+              <div>
+                <input type="password" name="password" >
+                <img id="lock" src="https://www.materialui.co/materialIcons/action/lock_outline_grey_24x24.png
+                ">
+              </div>
+             </label>
           </fieldset>
+          <div class="sign-up">
+            <button type="submit" class="btn btn-primary">Create Account</button>
+          </div>
+          
         </form>
+        <footer>
+          <span class="terms">
+            By clicking Create account, you agree to our
+Terms and have read and acknowledge our Privacy Statement.
+          </span>
+        </footer>
+        <section>
+          <span>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</span>
+        </section>
         </section>
       </main>
+      <footer>
+        <span>
+          <ul>
+            <li><a href="http://about.intuit.com/legal/">Legal</a></li>
+            <li><a href="https://security.intuit.com/privacy/">Privacy</a></li>
+            <li><a href="http://security.intuit.com/">Security</a></li>
+          </ul>
+        </span>
+        <span>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+        <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </span>
+      </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
