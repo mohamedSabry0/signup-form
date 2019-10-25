@@ -1,7 +1,11 @@
 *{
-
-  /*display:block;*/
+	font-family: AvenirNextLTPro;
 }
+@font-face {
+    font-family: AvenirNextLTPro;
+    src: url("fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
 body{
 	background-color: #ECEEF1;
 	padding-top: 10px;
@@ -9,6 +13,9 @@ body{
 
 main{
 	display: block;
+}
+.nav {
+	width: 100%
 }
 
 #top-right{
@@ -52,6 +59,7 @@ main{
 	margin: 0 auto;
 	padding: 15px 30px;
 	border: 1px solid rgb(199, 199, 199);
+	border-bottom: none;
 	width: 380px;
 }
 
@@ -61,14 +69,18 @@ main{
 label{
 	width: 100%;
 }
-.hidden{
-	display: none;
-}
 .inputs-container{
 	padding: 0;
 }
 .in-field{
 	width: 100%;
+	margin-bottom: 10px;
+}
+.phone{
+	margin-bottom: 0;
+}
+.smallest-text{
+	font-size: 10.5px;
 }
 #password{
 	border: 1px solid rgb(170, 170, 170);
@@ -77,7 +89,13 @@ label{
 	background-repeat: no-repeat; 
  	background-image: url("https://www.materialui.co/materialIcons/action/lock_outline_grey_24x24.png");
 }
-
-.nav {
-	width: 100%
+.recaptcha{
+	padding: 10px 35.48px;
+	border-right: 1px solid rgb(199, 199, 199);
+	border-bottom: 1px solid rgb(199, 199, 199);
+	border-left: 1px solid rgb(199, 199, 199);
+}
+ul{
+	list-style: none;
+	
 }
