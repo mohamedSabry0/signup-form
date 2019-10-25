@@ -20,7 +20,7 @@ Project: HTML Forms
 <br />
 <p align="center">
   <a href="https://github.com/mohamedSabry0/signup-form">
-    <img src="images/top-logos.jpg" alt="Logo" width="200">
+    <img src="images/top-logos.png" alt="Logo" width="200">
 
   </a>
 
