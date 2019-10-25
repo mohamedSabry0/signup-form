@@ -4,6 +4,7 @@
 }
 body{
 	background-color: #ECEEF1;
+	padding-top: 10px;
 }
 
 main{
@@ -12,15 +13,22 @@ main{
 
 #top-right{
 	position: absolute;
-	right: 40px;
+	right: 55px;
 }
 
 #acc-exists{
-	width: 190px !important;
+	right: 5px;
+	width: 210px !important;
 }
 #signin-btn{
+	padding-right: 3px;
 	font-size: 12px !important;
 	max-width: 100px;
+}
+
+#white-lock{
+	height: 13px;
+	width: 10px;
 }
 
 .small-text {
@@ -30,14 +38,21 @@ main{
 }
 
 #logos{
-	margin: 0 36.5%;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+#intuit{
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .form-container{
 	background-color: white;
-	margin: 0 33%;
-	padding: 15px 20px;
+	margin: 0 auto;
+	padding: 15px 30px;
 	border: 1px solid rgb(199, 199, 199);
+	width: 380px;
 }
 
 #forms{
