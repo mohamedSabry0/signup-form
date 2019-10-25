@@ -1,21 +1,38 @@
 *{
-  min-width:50px;
-width: 200px;
-  display:block;
+
+  /*display:block;*/
 }
-.green{
-  background-color: green !important;
+body{
+	background-color: #ECEEF1;
 }
-.blue{
-  background-color: blue;
-}
-#lock{
-  position:absolute;
-  width: 32px;
-  right: 100px;
+.form-container{
+	background-color: white;
+	margin: 0 33%;
+	padding: 15px 20px;
+	border: 1px solid rgb(199, 199, 199);
 }
 
 #forms{
-  border: solid 1px black !important;
-  display: block !important; 
+	display: block ; 
 }
+label{
+	width: 100%;
+}
+.hidden{
+	display: none;
+}
+.inputs-container{
+	padding: 0;
+}
+.in-field{
+	width: 100%;
+}
+#password{
+	border: 1px solid rgb(170, 170, 170);
+
+	background-size: 20px;
+	background-position: right;
+	background-repeat: no-repeat; 
+ 	background-image: url("https://www.materialui.co/materialIcons/action/lock_outline_grey_24x24.png");
+}
+

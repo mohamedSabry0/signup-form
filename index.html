@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body class="container">
-    <div class="col ">
+  <body class="gray">
+    <div class="container">
       <nav>
         <ul class="row nav">
           <li class="nav-item">
@@ -22,15 +22,14 @@
           </li>
         </ul>
       </nav>
-      <main class="row ">
+      <main class="row">
 
         <header class="row">
           <div class="col">
             <img src="" alt="">
           </div>
         </header>
-        <section>
-
+        <section class="form-container">
 
         <header>
           <div class="">
@@ -39,30 +38,30 @@
           </div>
         </header>
         <form id="forms" action="#" method="post">
-          <fieldset class="form">
-            <label >
-              E-mail Address
-              <input type="email" name="email" placeholder="example@domain.com">
-            </label>
-            <label >
-              Phone (recommended)
-              <input type="tel" name="phone" placeholder="+00-000-00000000" required maxlength="30">
-              <span>Standard call, messaging or data rates may apply.
-              </span>
-            </label>
-            <label>
-              Password
-              <div>
-                <input type="password" name="password" >
-                <img id="lock" src="https://www.materialui.co/materialIcons/action/lock_outline_grey_24x24.png
-                ">
-              </div>
-             </label>
-          </fieldset>
-          <div class="sign-up">
-            <button type="submit" class="btn btn-primary">Create Account</button>
-          </div>
-
+            <div class="form-row">
+              <fieldset class="form">
+                <div class="col inputs-container">
+                  <label >
+                    E-mail Address<br>
+                    <input class="in-field" type="email" name="email" maxlength="30" required="" placeholder="example@domain.com">
+                    <span class="hidden">Standard call, messaging or data rates may apply.</span>
+                  </label>
+                  <label >
+                    Phone (recommended)
+                    <input class="in-field" type="tel" name="phone" placeholder="+00-000-00000000" maxlength="30"><br>
+                    <span>Standard call, messaging or data rates may apply.</span>
+                  </label>
+                  <label>
+                    Password<br>
+                    <input class="in-field" id ="password" type="password" required maxlength="30" name="password" >
+                  </label>
+                </div> 
+              </fieldset>
+            </div>
+            <div class="in-field sign-up">
+              <button type="submit" class="btn btn-primary">Create Account</button>
+            </div>
+          
         </form>
         <footer>
           <span class="terms">
