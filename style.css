@@ -8,7 +8,7 @@
 }
 
 body {
-	background-color: #ECEEF1;
+	background-color: #eceef1;
 	padding-top: 10px;
 }
 
@@ -67,13 +67,13 @@ main {
 }
 
 .form-header {
-	color: #4C4C4C;
+	color: #4c4c4c;
 	font-size: 14px;
 	margin-bottom: 1rem;
 }
 
 #forms {
-	display: block ; 
+	display: block; 
 }
 
 label {
@@ -126,6 +126,6 @@ ul {
 	color: #404040;
 }
 
-.footer-link{
+.footer-link {
 	color: inherit;
 }
