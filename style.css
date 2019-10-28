@@ -1,9 +1,9 @@
 * {
-  font-family: AvenirNextLTPro;
+  font-family: AvenirNextLTPro, Helvetica, Arial, sans-serif;
 }
 
 @font-face {
-  font-family: AvenirNextLTPro, Helvetica, Arial, sans-serif;
+  font-family: AvenirNextLTPro;
   src: url("fonts/AvenirNextLTPro-Regular.otf") format("opentype");
 }
 
