@@ -3,7 +3,7 @@
 }
 
 @font-face {
-  font-family: AvenirNextLTPro;
+  font-family: AvenirNextLTPro, Helvetica, Arial, sans-serif;
   src: url("fonts/AvenirNextLTPro-Regular.otf") format("opentype");
 }
 
