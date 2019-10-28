@@ -1,5 +1,5 @@
 * {
-	font-family: AvenirNextLTPro;
+  font-family: AvenirNextLTPro;
 }
 
 @font-face {
@@ -8,124 +8,124 @@
 }
 
 body {
-	background-color: #eceef1;
-	padding-top: 10px;
+  background-color: #eceef1;
+  padding-top: 10px;
 }
 
 main {
-	display: block;
+  display: block;
 }
 
 .nav {
-	width: 100%;
+  width: 100%;
 }
 
 #top-right {
-	position: absolute;
-	right: 55px;
+  position: absolute;
+  right: 55px;
 }
 
 #acc-exists {
-	right: 5px;
-	width: 210px !important;
+  right: 5px;
+  width: 210px !important;
 }
 
 #signin-btn {
-	padding-right: 3px;
-	font-size: 12px !important;
-	max-width: 100px;
+  padding-right: 3px;
+  font-size: 12px !important;
+  max-width: 100px;
 }
 
 #white-lock {
-	height: 13px;
-	width: 10px;
+  height: 13px;
+  width: 10px;
 }
 
 .small-text {
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 1.5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 #logos {
-	margin: 0 auto;
-	padding-top: 60px;
+  margin: 0 auto;
+  padding-top: 60px;
 }
 
 #intuit {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
   padding-top: 5px;
 }
 
 .form-container {
-	background-color: white;
+  background-color: white;
   border: 1px solid rgb(199, 199, 199);
   border-bottom: none;
-	margin: 0 auto;
-	padding: 15px 30px;
-	width: 380px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  width: 380px;
 }
 
 .form-header {
-	color: #4c4c4c;
-	font-size: 14px;
-	margin-bottom: 1rem;
+  color: #4c4c4c;
+  font-size: 14px;
+  margin-bottom: 1rem;
 }
 
 #forms {
-	display: block;
+  display: block;
 }
 
 label {
-	width: 100%;
+  width: 100%;
 }
 
 .inputs-container {
-	padding: 0;
+  padding: 0;
 }
 
 .in-field {
   margin-bottom: 10px;
-	width: 100%;
+  width: 100%;
 }
 
 .phone {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .smallest-text {
-	font-size: 10.5px;
+  font-size: 10.5px;
 }
 
 #password {
   background-image: url("https://www.materialui.co/materialIcons/action/lock_outline_grey_24x24.png");
   background-position: right;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: 20px;
   border: 1px solid rgb(170, 170, 170);
 }
 
 .recaptcha {
-	border-bottom: 1px solid rgb(199, 199, 199);
-	border-left: 1px solid rgb(199, 199, 199);
+  border-bottom: 1px solid rgb(199, 199, 199);
+  border-left: 1px solid rgb(199, 199, 199);
   border-right: 1px solid rgb(199, 199, 199);
   padding: 10px 35.48px;
 }
 
 ul {
   list-style: none;
-	padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 .nav-link {
-	padding: 0.2rem;
+  padding: 0.2rem;
 }
 
 .page-footer {
   color: #404040;
-	font-size: 12px;
+  font-size: 12px;
 }
 
 .footer-link {
-	color: inherit;
+  color: inherit;
 }
