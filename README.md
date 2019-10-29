@@ -20,7 +20,7 @@ Project: HTML Forms
 <br />
 <p align="center">
   <a href="https://github.com/mohamedSabry0/signup-form">
-    <img src="images/untuit-logo.png" alt="Logo" width="200">
+    <img src="images/intuit-logo.png" alt="Logo" width="200">
 
   </a>
 
@@ -83,7 +83,7 @@ Built for Microverse following these requirements:
 and following this lesson :
 https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms
 
-[![Product Name Screen Shot][product-screenshot]](images/snapshot.png)
+[![Product Name Screen Shot][product-screenshot]](./images/snapshot.png)
 
 ## Built With
 * (HTML5)
@@ -127,4 +127,4 @@ Project Link: [https://github.com/mohamedSabry0/signup-form](https://github.com/
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/snapshot.png
